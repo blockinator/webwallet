@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-HOST_URI='http://localhost' \
+HOST_URI='http://wallet.spawncoin.org' \
 HOST_PORT=':8080' \
 USER_URI='http://localhost:8081' \
 WALLET_URI='http://localhost:8082' \
