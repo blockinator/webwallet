@@ -45,7 +45,7 @@ Run this once.
 
 Point spawn-service at an existing daemon like this
 ```
-./spawn-service --rpc-password <rpc password> --container-file <container name> -p <container password> --daemon-address node-1.getazur.org --daemon-port 15251
+./spawn-service --rpc-password <rpc password> --container-file <container name> -p <container password> --daemon-address <node_ip_address> --daemon-port 15251
 ```
 
 
