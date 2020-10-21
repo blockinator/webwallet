@@ -6,7 +6,7 @@
 sudo apt-get update
 sudo add-apt-repository ppa:certbot/certbot -y
 sudo apt-get update
-sudo apt install -y git nginx python-certbot-nginx postgresql postgresql-contrib redis-server
+sudo apt-get install -y git nginx python-certbot-nginx postgresql postgresql-contrib redis-server
 ```
 #### Install PostgreSQL
 
