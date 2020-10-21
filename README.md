@@ -31,11 +31,15 @@ rm go1.11.4.linux-amd64.tar.gz
 export GOPATH=$HOME/work
 export PATH=$PATH:/usr/local/go/bin
 export GOROOT=/usr/local/go
-go get github.com/gomodule/redigo/redis \
+go get \
+	github.com/gomodule/redigo/redis \
 	github.com/julienschmidt/httprouter \
 	github.com/lib/pq \
-	github.com/opencoff/go-srp
-
+	github.com/opencoff/go-srp \
+	github.com/ulule/limiter \
+	github.com/ulule/limiter/drivers/middleware/stdlib \
+	github.com/ulule/limiter/drivers/store/memory \
+	github.com/dchest/captcha
 ```
 
 Run this once.
